@@ -62,11 +62,9 @@ from PyQt5.QtWidgets import QVBoxLayout
 class GUI(QMainWindow):
 ```
 - Add Constructor
-...It will initiate main window by calling superclass constuctor and setting basic parametes such as
-...WindowTitle, Size, generalLayout, LED Display, Buttons
+...It will initiate main window by calling superclass constuctor and setting basic parametes such as WindowTitle, Size, generalLayout, LED Display, Buttons
 
-- Define methods like
-..* _createDisplayLED, _createButtons, setDisplayText, getDisplayText, clearDisplay
+- Define methods like _createDisplayLED, _createButtons, setDisplayText, getDisplayText, clearDisplay
 ## 4: Create Model of application
 - Evaluting the Expression
 def evaluateExpression(expression):
