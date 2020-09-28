@@ -15,7 +15,7 @@ def main():
     view.show()
 
 	# Create instances of the model and the controller
-    model = evaluateExpression
+    #model = evaluateExpression
     Controller(model=model, view=view)
 
     # Execute the calculator's main loop
