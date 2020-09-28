@@ -45,8 +45,8 @@ sys.exit(app.exce_())
 window.setGeometry(100, 100, 280, 80) # It will set  x, y, w, h of app window
 window.move(600,400) # Move window x from left and y from top
 ```
-## 3: Create view of application i.e. GUI
-
+## 3: Create view of application
+--view is nothing but demo of how your application will look like...
 - Create class named view.py
 - Import following modules
 ```
@@ -63,19 +63,11 @@ class GUI(QMainWindow):
 ```
 - Add Constructor
 ...It will initiate main window by calling superclass constuctor and setting basic parametes such as
-..* WindowTitle
-..* Size
-..* generalLayout
-..* LED Display
-..* Buttons
+...WindowTitle, Size, generalLayout, LED Display, Buttons
 
-- Define methods
-..* _createDisplayLED
-..* _createButtons
-..* setDisplayText
-..* getDisplayText
-..* clearDisplay
-## 3: Create Model of application
+- Define methods like
+..* _createDisplayLED, _createButtons, setDisplayText, getDisplayText, clearDisplay
+## 4: Create Model of application
 - Evaluting the Expression
 def evaluateExpression(expression):
     """Evaluate an expression."""
